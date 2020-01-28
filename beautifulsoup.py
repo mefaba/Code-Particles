@@ -2,8 +2,9 @@ from bs4 import BeautifulSoup
 
 
 
-
-
+#soup = BeautifulSoup(HTML)
+#soup2 = soup.find_all("table")[0]
+#tableDataText(soup2)
 def tableDataText(table):       
     rows = []
     trs = table.find_all('tr')
