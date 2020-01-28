@@ -1,13 +1,10 @@
 # Code-Particles
 
-Content of Files
+## Content of Files
 
-AwareTools.py
-
--Functions
-
-def remove_duplicatish()
-
+AwareTools.py <br>
+Functions <br>
+def remove_duplicatish() <br>
 def eliminate_duplicates()
 
   
