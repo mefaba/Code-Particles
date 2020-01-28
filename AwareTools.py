@@ -2,6 +2,7 @@ from difflib import SequenceMatcher
 import pandas as pd
 from itertools import combinations
 
+#Dupicate Delete - Deletes similar strings in a list of strings.
 #yenilistemiz = remove_duplicatish(list)
 def remove_duplicatish(alist):
     list_remove = []
@@ -16,7 +17,7 @@ def remove_duplicatish(alist):
     list_final = [x for x in alist if x not in list_difference]
     return list_final
 
-#another duplicate deleter simple is better.
+#Another duplicate deleter simple is better.
 from difflib import SequenceMatcher 
 liste = ["PARALAR", "paralar", "kapıcı", "parasız", "kapı", "geldiğin yere geri dön", "geldiğin yere geri dönme", "Özdilek Park Gucci", "Özdilek Park 2.Kat Gucci"]
 def eliminate_duplicates(liste, ratio = 0.8):
