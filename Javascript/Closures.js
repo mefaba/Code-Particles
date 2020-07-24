@@ -93,7 +93,7 @@ function heavyDuty2() {
   }
 }
 
-/Encapsulation
+//Encapsulation
 // Exercise:
 const makeNuclearButton = () => {
   let timeWithoutDestruction = 0;
